@@ -142,3 +142,32 @@
     width: 60px;
     height: 20px;
 }
+.ex-12-button:hover .ex-12-top-white {
+    animation: topWhite 2s linear;
+}
+@keyframes topWhite {
+    0% {
+        left: 30%;
+    }
+    50% {
+        left: calc(100% - 30px);
+    }
+    100% {
+        left: 30%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottomWhite 2s linear;
+}
+@keyframes bottomWhite {
+    0% {
+        right: 30%;
+    }
+    50% {
+        right: calc(100% - 30px);
+    }
+    100% {
+        right: 30%;
+    }
+}
+
