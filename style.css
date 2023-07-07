@@ -85,10 +85,10 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: turn 1s;
+    animation: turn-around 1s;
     animation-iteration-count: infinite;
 }
-@keyframes turn {
+@keyframes turn-around {
     0%{
         transform: rotate(1turn);
     }
